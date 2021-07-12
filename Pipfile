@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+chamferdist = "==1.0.0"
+imageio = "*"
+kornia = "*"
+natsort = "*"
+numpy = "*"
+plotly = ">=4.10"
+open3d = "0.10.0.0"
+opencv-python-headless = "*"
+PyYAML = "*"
+torch = ">=1.6.0"
+gradslam = {editable = true, path = "."}
+
+[dev-packages]
+black = "*"
+pylint = "*"
+flake8 = "*"
+
+[pipenv]
+allow_prereleases = true
