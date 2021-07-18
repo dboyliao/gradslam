@@ -20,6 +20,7 @@ gradslam = {editable = true, path = "."}
 black = "*"
 pylint = "*"
 flake8 = "*"
+jupyter = "*"
 
 [pipenv]
 allow_prereleases = true
